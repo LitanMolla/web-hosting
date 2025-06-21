@@ -5,6 +5,8 @@ import Success from '../components/Success'
 import HostingSolution from '../components/HostingSolution'
 import DomainName from '../components/DomainName'
 import RightServices from '../components/RightServices'
+import FeatureCardsSection from '../components/FeatureCardsSection'
+import WebsiteSetupAndMigration from '../components/WebsiteSetupAndMigration'
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
         <HostingSolution/>
         <DomainName/>
         <RightServices/>
+        <FeatureCardsSection/>
+        <WebsiteSetupAndMigration/>
     </>
   )
 }
