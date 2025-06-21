@@ -7,6 +7,7 @@ import DomainName from '../components/DomainName'
 import RightServices from '../components/RightServices'
 import FeatureCardsSection from '../components/FeatureCardsSection'
 import WebsiteSetupAndMigration from '../components/WebsiteSetupAndMigration'
+import Feedback from '../components/Feedback'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         <RightServices/>
         <FeatureCardsSection/>
         <WebsiteSetupAndMigration/>
+        <Feedback/>
     </>
   )
 }

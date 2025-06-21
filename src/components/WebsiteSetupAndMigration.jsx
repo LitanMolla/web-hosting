@@ -7,7 +7,7 @@ const WebsiteSetupAndMigration = () => {
         <>
             <section className='bg-gray-100'>
                 <Container>
-                    <div className="flex md:flex-row flex-col justify-between">
+                    <div className="flex md:flex-row flex-col justify-between px-10 md:px-0">
                         <div className="space-y-5 md:w-[45%]">
                             <div className="flex items-center gap-3">
                                 <div className="bg-blue-100 h-20 w-20 rounded-md flex justify-center items-center">
