@@ -10,7 +10,7 @@ const Footer = () => {
         <>
             <section className='bg-blue-950 py-12'>
                 <Container>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
                         {/* Footer menu Item */}
                         <div className="text-white space-y-2">
                             <h4 className='text-base font-bold uppercase my-2'>Hosting</h4>
