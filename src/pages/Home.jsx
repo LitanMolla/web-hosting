@@ -9,7 +9,7 @@ import FeatureCardsSection from '../components/FeatureCardsSection'
 import WebsiteSetupAndMigration from '../components/WebsiteSetupAndMigration'
 import Feedback from '../components/Feedback'
 import Frequently from '../components/Frequently'
-import Footer from '../components/Footer'
+import P from '../components/P'
 
 const Home = () => {
   return (
