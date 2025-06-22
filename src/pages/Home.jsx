@@ -8,6 +8,8 @@ import RightServices from '../components/RightServices'
 import FeatureCardsSection from '../components/FeatureCardsSection'
 import WebsiteSetupAndMigration from '../components/WebsiteSetupAndMigration'
 import Feedback from '../components/Feedback'
+import Frequently from '../components/Frequently'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -21,6 +23,8 @@ const Home = () => {
         <FeatureCardsSection/>
         <WebsiteSetupAndMigration/>
         <Feedback/>
+        <Frequently/>
+        <Footer/>
     </>
   )
 }
