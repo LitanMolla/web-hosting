@@ -111,8 +111,8 @@ const Sharedhosting = () => {
                         <h2 className='font-semibold lg:text-[40px] text-3xl text-center mb-2'>Web Hosting Plans</h2>
                         <p className='text-base text-gray-500 text-center'>Affordable and reliable Linux shared hosting plans tailored for optimal website performance and support.</p>
                     </div>
-                    <div className="flex justify-center items-center my-6">
-                        <div className="rounded-lg border border-gray-300 bg-white p-4 flex justify-between">
+                    <div className="flex justify-center items-center my-6 ">
+                        <div className="rounded-lg border border-gray-300 bg-white p-4 flex justify-between flex-col md:flex-row gap-3 items-center">
                             <div className="text-center">
                                 <p className='text-base text-blue-950 font-medium mb-2'>Select Currency</p>
                                 <div className="flex gap-2">
@@ -120,7 +120,7 @@ const Sharedhosting = () => {
                                     <button onClick={()=>setCurrency('BDT')} className={` text-base px-5 py-2 rounded-md duration-300 cursor-pointer border-blue-500 border ${currency == 'BDT' ? 'bg-blue-500 text-white' : 'text-blue-500'}`}>BDT</button>
                                 </div>
                             </div>
-                            <div className="bg-gray-300 w-[1px] mx-5"></div>
+                            <div className="bg-gray-300 w-[1px] mx-5 hidden md:block"></div>
                             <div className="text-center">
                                 <p className='text-base text-blue-950 font-medium mb-2'>Billing Cycle</p>
                                 <div className="flex gap-2">
