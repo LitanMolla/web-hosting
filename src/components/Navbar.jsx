@@ -45,7 +45,7 @@ const Navbar = () => {
               <DropdownMenu
                 title="VPS Hosting"
                 items={[
-                  { label: 'Linux VPS Hosting', href: '/' },
+                  { label: 'Linux VPS Hosting', href: 'LinuxVpsHosting' },
                   { label: 'Windows VPS Hosting', href: '/' },
                   { label: 'cPanel VPS Hosting', href: '/' },
                 ]}

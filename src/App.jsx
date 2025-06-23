@@ -3,6 +3,7 @@ import Home from "./pages/Home"
 import RootLayout from "./components/RootLayout"
 import Notfound from "./pages/Notfound"
 import Sharedhosting from "./pages/Sharedhosting"
+import LinuxVpsHosting from "./pages/LinuxVpsHosting"
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Route path="/" element={<RootLayout/>}>
         <Route index element={<Home/>} />
         <Route path="sharedhosting" element={<Sharedhosting/>} />
+        <Route path="LinuxVpsHosting" element={<LinuxVpsHosting/>} />
         <Route path="*" element={<Notfound/>} />
       </Route>
     </Routes>
