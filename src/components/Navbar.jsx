@@ -6,6 +6,9 @@ import DropdownMenu from './DropdownMenu';
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
+
+  const closeMobileMenu = () => setMobileOpen(false);
+
   return (
     <>
       <header className='py-3 shadow-md shadow-gray-200 fixed top-0 left-0 w-full bg-white z-50'>
@@ -25,53 +28,35 @@ const Navbar = () => {
 
             {/* Desktop Menu */}
             <ul className='hidden lg:flex gap-5 items-center text-blue-950'>
-              <DropdownMenu
-                title="Domain & SSL"
-                items={[
-                  { label: 'Domain Register', href: '/nnn' },
-                  { label: 'Domain Transfer', href: '/' },
-                  { label: 'SSL Certificate', href: '/' }
-                ]}
-              />
-              <DropdownMenu
-                title="Hosting"
-                items={[
-                  { label: 'Shared Hosting', href: 'sharedhosting' },
-                  { label: 'WordPress Hosting', href: '/' },
-                  { label: 'FFmpeg Hosting', href: '/' },
-                  { label: 'Reseller Hosting', href: '/' },
-                ]}
-              />
-              <DropdownMenu
-                title="VPS Hosting"
-                items={[
-                  { label: 'Linux VPS Hosting', href: 'LinuxVpsHosting' },
-                  { label: 'Windows VPS Hosting', href: '/' },
-                  { label: 'cPanel VPS Hosting', href: '/' },
-                ]}
-              />
-              <DropdownMenu
-                title="Cloud Server"
-                items={[
-                  { label: 'Managed AWS Cloud', href: '/' },
-                  { label: 'Managed Vultr Cloud', href: '/' },
-                  { label: 'Managed DigitalOcean Cloud', href: '/' },
-                ]}
-              />
-              <DropdownMenu
-                title="Dedicated Server"
-                items={[
-                  { label: 'BD Server', href: '/' },
-                  { label: 'US Server', href: '/' },
-                ]}
-              />
-              <DropdownMenu
-                title="Email"
-                items={[
-                  { label: 'Business Email', href: '/' },
-                  { label: 'Gmail Workspace', href: '/' },
-                ]}
-              />
+              <DropdownMenu title="Domain & SSL" items={[
+                { label: 'Domain Register', href: '/nnn' },
+                { label: 'Domain Transfer', href: '/' },
+                { label: 'SSL Certificate', href: '/' }
+              ]} />
+              <DropdownMenu title="Hosting" items={[
+                { label: 'Shared Hosting', href: 'sharedhosting' },
+                { label: 'WordPress Hosting', href: '/' },
+                { label: 'FFmpeg Hosting', href: '/' },
+                { label: 'Reseller Hosting', href: '/' },
+              ]} />
+              <DropdownMenu title="VPS Hosting" items={[
+                { label: 'Linux VPS Hosting', href: 'LinuxVpsHosting' },
+                { label: 'Windows VPS Hosting', href: '/' },
+                { label: 'cPanel VPS Hosting', href: '/' },
+              ]} />
+              <DropdownMenu title="Cloud Server" items={[
+                { label: 'Managed AWS Cloud', href: '/' },
+                { label: 'Managed Vultr Cloud', href: '/' },
+                { label: 'Managed DigitalOcean Cloud', href: '/' },
+              ]} />
+              <DropdownMenu title="Dedicated Server" items={[
+                { label: 'BD Server', href: '/' },
+                { label: 'US Server', href: '/' },
+              ]} />
+              <DropdownMenu title="Email" items={[
+                { label: 'Business Email', href: '/' },
+                { label: 'Gmail Workspace', href: '/' },
+              ]} />
               <button className='uppercase text-white bg-blue-500 hover:bg-blue-950 px-6 py-2 font-medium duration-300 rounded-md cursor-pointer'>Log In</button>
             </ul>
 
@@ -85,6 +70,7 @@ const Navbar = () => {
                     { label: 'Domain Transfer', href: '/' },
                     { label: 'SSL Certificate', href: '/' }
                   ]}
+                  onItemClick={closeMobileMenu}
                 />
                 <DropdownMenu
                   title="Hosting"
@@ -94,6 +80,7 @@ const Navbar = () => {
                     { label: 'FFmpeg Hosting', href: '/' },
                     { label: 'Reseller Hosting', href: '/' },
                   ]}
+                  onItemClick={closeMobileMenu}
                 />
                 <DropdownMenu
                   title="VPS Hosting"
@@ -102,6 +89,7 @@ const Navbar = () => {
                     { label: 'Windows VPS Hosting', href: '/' },
                     { label: 'cPanel VPS Hosting', href: '/' },
                   ]}
+                  onItemClick={closeMobileMenu}
                 />
                 <DropdownMenu
                   title="Cloud Server"
@@ -110,6 +98,7 @@ const Navbar = () => {
                     { label: 'Managed Vultr Cloud', href: '/' },
                     { label: 'Managed DigitalOcean Cloud', href: '/' },
                   ]}
+                  onItemClick={closeMobileMenu}
                 />
                 <DropdownMenu
                   title="Dedicated Server"
@@ -117,6 +106,7 @@ const Navbar = () => {
                     { label: 'BD Server', href: '/' },
                     { label: 'US Server', href: '/' },
                   ]}
+                  onItemClick={closeMobileMenu}
                 />
                 <DropdownMenu
                   title="Email"
@@ -124,6 +114,7 @@ const Navbar = () => {
                     { label: 'Business Email', href: '/' },
                     { label: 'Gmail Workspace', href: '/' },
                   ]}
+                  onItemClick={closeMobileMenu}
                 />
                 <button className='uppercase cursor-pointer'>Log In</button>
               </div>

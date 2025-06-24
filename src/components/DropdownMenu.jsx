@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { FaAngleDown } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const DropdownMenu = ({ title, items }) => {
+const DropdownMenu = ({ title, items, onItemClick }) => {
   const [open, setOpen] = useState(false);
   const dropdownRef = useRef(null);
 
@@ -39,6 +39,10 @@ const DropdownMenu = ({ title, items }) => {
             <div key={i} className="list-none">
               <Link
                 to={item.href}
+                onClick={() => {
+                  setOpen(false);
+                  onItemClick?.(); // mobile menu বন্ধ করার জন্য call
+                }}
                 className="block w-full py-3 px-6 duration-300 text-blue-950 hover:text-blue-800 hover:bg-gray-100"
               >
                 {item.label}
