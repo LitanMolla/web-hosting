@@ -7,7 +7,7 @@ const VpsHero = () => {
         <>
             <section className='bg-gray-100 md:py-25 py-12'>
                 <Container>
-                    <div className="flex flex-col-reverse md:flex-row">
+                    <div className="flex flex-col-reverse md:flex-row items-center">
                         <div className="md:w-3/5 space-y-4 md:space-y-6 mt-5 md:mt-0">
                             <h2 className='text-2xl md:text-[45px] font-bold text-blue-950'>Get Blazing-fast Linux VPS Hosting To Match Your Needs</h2>
                             <p className='text-base text-blue-950'>Discover powerful and affordable Linux VPS hosting at Max Cloud Host. By launching a personal project or managing a large-scale business website, our flexible VPS plans are designed to meet every need.</p>

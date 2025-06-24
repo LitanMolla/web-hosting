@@ -1,6 +1,11 @@
 import React, { useState } from 'react'
 import Container from '../components/Container'
 import SharedHostingCard from '../components/SharedHostingCard'
+import SharedHero from '../components/SharedHero';
+import TrustedReviews from '../components/TrustedReviews';
+import PlansIncludes from '../components/PlansIncludes';
+import PremiumFeatures from '../components/PremiumFeatures';
+import SharedFAQ from '../components/SharedFAQ';
 
 const Sharedhosting = () => {
     const allPackages = [
@@ -105,7 +110,8 @@ const Sharedhosting = () => {
     
     return (
         <>
-            <section className='bg-gray-100 py-20'>
+        <SharedHero/>
+            <section className='bg-white py-20'>
                 <Container>
                     <div className="">
                         <h2 className='font-semibold lg:text-[40px] text-3xl text-center mb-2'>Web Hosting Plans</h2>
@@ -157,6 +163,10 @@ const Sharedhosting = () => {
                     </div>
                 </Container>
             </section>
+          {/* <TrustedReviews/> */}
+          <PlansIncludes/>
+          <PremiumFeatures/>
+          <SharedFAQ/>
         </>
     )
 }
