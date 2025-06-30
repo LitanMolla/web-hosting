@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="Database">
+  <g fill="#377dff" class="color000000 svgShape">
+    <path d="M30 5a3 3 0 0 0-3-3H5a3 3 0 0 0-3 3v6a2.981 2.981 0 0 0 .78 2A2.981 2.981 0 0 0 2 15v6a3 3 0 0 0 3 3h10v4H6a1 1 0 0 0 0 2h20a1 1 0 0 0 0-2h-9v-4h10a3 3 0 0 0 3-3v-6a2.981 2.981 0 0 0-.78-2 2.981 2.981 0 0 0 .78-2ZM4 5a1 1 0 0 1 1-1h22a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1Zm24 16a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h22a1 1 0 0 1 1 1Z" fill="#377dff" class="color000000 svgShape"></path>
+    <path d="M9 17H7a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zm16 0H13a1 1 0 0 0 0 2h12a1 1 0 0 0 0-2zM7 9h2a1 1 0 0 0 0-2H7a1 1 0 0 0 0 2zm6 0h12a1 1 0 0 0 0-2H13a1 1 0 0 0 0 2z" fill="#377dff" class="color000000 svgShape"></path>
+  </g>
+</svg>

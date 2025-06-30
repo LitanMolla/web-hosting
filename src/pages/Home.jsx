@@ -1,5 +1,3 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Success from '../components/Success'
 import HostingSolution from '../components/HostingSolution'
@@ -9,7 +7,6 @@ import FeatureCardsSection from '../components/FeatureCardsSection'
 import WebsiteSetupAndMigration from '../components/WebsiteSetupAndMigration'
 import Feedback from '../components/Feedback'
 import Frequently from '../components/Frequently'
-import P from '../components/P'
 
 const Home = () => {
   return (

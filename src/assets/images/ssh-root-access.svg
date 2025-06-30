@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128" id="terminal">
+  <rect width="94" height="94" x="17" y="17" stroke="#377dff" stroke-width="8" class="colorStroke000000 svgStroke"></rect>
+  <path stroke="#377dff" stroke-linejoin="bevel" stroke-width="8" d="M17 39L111 39" class="colorStroke000000 svgStroke"></path>
+  <path stroke="#377dff" stroke-width="8" d="M36.625 55L56.2499 74.625 36.625 94.25M95 92H65" class="colorStroke000000 svgStroke"></path>
+</svg>

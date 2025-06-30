@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="DedicatedHosting">
+  <rect width="20.46" height="43.37" x="321.89" y="317.69" fill="#377dff" class="color000000 svgShape"></rect>
+  <rect width="20.46" height="43.37" x="42.23" y="317.69" fill="#377dff" class="color000000 svgShape"></rect>
+  <polygon points="370.81 327.92 13.77 327.92 13.77 223.32 292.45 223.32 292.45 243.78 34.23 243.78 34.23 307.46 350.35 307.46 350.35 305.07 370.81 305.07 370.81 327.92" fill="#377dff" class="color000000 svgShape"></polygon>
+  <rect width="88.68" height="20.46" x="206.36" y="263.48" fill="#377dff" class="color000000 svgShape"></rect>
+  <path d="M370.81,455.43h-357V350.83h357ZM34.23,435H350.35V371.29H34.23Z" fill="#377dff" class="color000000 svgShape"></path>
+  <rect width="118.35" height="20.46" x="206.36" y="390.99" fill="#377dff" class="color000000 svgShape"></rect>
+  <rect width="20.46" height="46.1" x="182.06" y="445.2" fill="#377dff" class="color000000 svgShape"></rect>
+  <rect width="161.87" height="20.46" x="111.35" y="481.07" fill="#377dff" class="color000000 svgShape"></rect>
+  <rect width="17.47" height="20.46" x="67.03" y="265.39" fill="#377dff" class="color000000 svgShape"></rect>
+  <rect width="17.47" height="20.46" x="103.28" y="265.39" fill="#377dff" class="color000000 svgShape"></rect>
+  <rect width="17.47" height="20.46" x="67.03" y="392.9" fill="#377dff" class="color000000 svgShape"></rect>
+  <rect width="17.47" height="20.46" x="103.28" y="392.9" fill="#377dff" class="color000000 svgShape"></rect>
+  <path d="M403.65,254.07H318.23V226.26a86.88,86.88,0,1,1,85.42,0Zm-65-20.46h44.5V213.54l5.88-2.76a66.43,66.43,0,1,0-56.26,0l5.88,2.76Z" fill="#377dff" class="color000000 svgShape"></path>
+  <path d="M391.59,293.72h-61.3V233.61h61.3Zm-40.84-20.46h20.38V254.07H350.75Z" fill="#377dff" class="color000000 svgShape"></path>
+  <rect width="29.23" height="20.46" x="458.77" y="132.88" fill="#377dff" class="color000000 svgShape"></rect>
+  <rect width="29.23" height="20.46" x="233.15" y="132.88" fill="#377dff" class="color000000 svgShape"></rect>
+  <rect width="20.46" height="29.23" x="274.48" y="52.27" transform="rotate(-45 284.712 66.878)" fill="#377dff" class="color000000 svgShape"></rect>
+  <rect width="29.23" height="20.46" x="422.55" y="56.65" transform="rotate(-45 437.163 66.881)" fill="#377dff" class="color000000 svgShape"></rect>
+  <rect width="20.46" height="29.23" x="350.71" y="20.69" fill="#377dff" class="color000000 svgShape"></rect>
+  <path d="M333.22,159.2l-20.45-.53c.49-19,6.19-33.34,16.94-42.51,14-11.94,30.72-10.11,32.58-9.87l-2.7,20.29h.1c-.1,0-9.67-1-16.87,5.28C336.78,137.13,333.55,146.33,333.22,159.2Z" fill="#377dff" class="color000000 svgShape"></path>
+</svg>
