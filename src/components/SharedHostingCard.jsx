@@ -18,7 +18,7 @@ const SharedHostingCard = ({ name, price, space, bandwidth, addon, subdomain, da
                 <p className='text-gray-500 text-xs'>Enjoy Optimal Website Performance</p>
                 <h3 className='text-3xl font-semibold text-blue-950'> {price} </h3>
                 <Link to={to} className='text-white bg-blue-500 block py-3 duration-300 text-center rounded-md hover:bg-blue-950'>Buy Now</Link>
-                <div className="space-y-2">
+                <div className="space-y-1">
                     <h4 className='text-base text-gray-500 font-semibold'>Features</h4>
                     <div className="text-base flex items-center gap-2">
                         <FaCheckCircle className='text-blue-500 ' />
