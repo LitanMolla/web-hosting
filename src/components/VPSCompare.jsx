@@ -9,8 +9,8 @@ const VPSCompare = () => {
             <section className='md:py-25 py-12 bg-white'>
                 <Container>
                     <h2 className='font-semibold lg:text-[40px] text-3xl text-center mb-8 text-blue-950'>Compare Self and Fully Managed VPS Plans</h2>
-                    <div className="">
-                        {/* <table className='w-full border border-gray-300 border-collapse text-left'>
+                    <div className="overflow-auto">
+                        <table className='w-full border border-gray-300 border-collapse text-left'>
                             <thead>
                                 <tr className='border border-gray-300'>
                                     <th className='text-xl font-bold text-blue-950 border border-gray-300 p-2.5'>SERVER & APPLICATION SETUP</th>
@@ -50,7 +50,7 @@ const VPSCompare = () => {
                                     <td className='text-base text-gray-500 p-2.5 border border-gray-300'> <FaCheck className='mx-auto text-green-500' /> </td>
                                 </tr>
                             </tbody>
-                        </table> */}
+                        </table>
                     </div>
                     <div className="flex justify-center mt-12">
                         <HeroBtn text={'Get Fully Managed VPS Hosting Plans'} to={'/'} className={'mx-auto'} />

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const HostingSolutionCard = ({ image, title, description, to }) => {
     return (
         <>
-            <div className="w-96 bg-white p-7 space-y-3 rounded-md border border-gray-200 duration-300 hover:shadow-xl hover:shadow-gray-300 hover:scale-105">
+            <div className="sm:w-96 max-w-full bg-white p-7 space-y-3 rounded-md border border-gray-200 duration-300 hover:shadow-xl hover:shadow-gray-300 hover:scale-105">
                 <div className="w-25 mx-auto">
                     <img src={image} alt="Card Icon" className='w-full' />
                 </div>
