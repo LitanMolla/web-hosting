@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Container from '../components/Container'
 import SharedHostingCard from '../components/SharedHostingCard'
 import SharedHero from '../components/SharedHero';
-import TrustedReviews from '../components/TrustedReviews';
 import PlansIncludes from '../components/PlansIncludes';
 import PremiumFeatures from '../components/PremiumFeatures';
 import SharedFAQ from '../components/SharedFAQ';
