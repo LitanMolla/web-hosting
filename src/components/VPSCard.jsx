@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { FaCheckCircle } from "react-icons/fa";
 
-const VPSCard = ({ name, price, core, storage, bandwidth, ram, to, ip }) => {
+const VPSCard = ({ name, price, core, storage, bandwidth, ram, to, ip , location}) => {
     return (
         <>
             <div className="max-w-full rounded-xl border border-gray-300 hover:shadow-lg hover:shadow-gray-300 py-6 px-6 duration-300 bg-white space-y-3 relative">
@@ -50,6 +50,12 @@ const VPSCard = ({ name, price, core, storage, bandwidth, ram, to, ip }) => {
                     <div className="text-base flex items-center gap-2">
                         <FaCheckCircle className='text-blue-500 ' />
                         <p className='text-blue-950'><b>{ip}</b> Dedicated IP Address</p>
+                    </div>
+                    <div className="border-b border-b-gray-300"></div>
+
+                    <div className="text-base flex items-center gap-2">
+                        <FaCheckCircle className='text-blue-500 ' />
+                        <p className='text-blue-950'><b>{location}</b> Location</p>
                     </div>
 
                 </div>

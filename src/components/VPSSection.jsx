@@ -15,6 +15,7 @@ const VPSSection = () => {
             storage: '25 GB',
             bandwidth: '1 TB',
             ip: '1',
+            location: 'BDIX',
             to: '/'
         },
         {
@@ -28,6 +29,7 @@ const VPSSection = () => {
             storage: '40 GB',
             bandwidth: '1 TB',
             ip: '1',
+            location: 'BDIX',
             to: '/'
         },
         {
@@ -41,6 +43,7 @@ const VPSSection = () => {
             storage: '75 GB',
             bandwidth: '2 TB',
             ip: '1',
+            location: 'BDIX',
             to: '/'
         },
         {
@@ -54,6 +57,7 @@ const VPSSection = () => {
             storage: '150 GB',
             bandwidth: '3 TB',
             ip: '2',
+            location: 'BDIX',
             to: '/'
         },
     ]
@@ -85,6 +89,7 @@ const VPSSection = () => {
                                         bandwidth={item.bandwidth}
                                         ip={item.ip}
                                         to={item.to}
+                                        location={item.location}
                                         key={index}
                                     />
                                 ))
