@@ -54,7 +54,7 @@ const Footer = () => {
                             <Link className='text-base duration-300 hover:text-blue-500 text-gray-400 block'>Support Ticket</Link>
 
                             <h4 className='text-base font-bold uppercase my-2'>Legal</h4>
-                            <Link className='text-base duration-300 hover:text-blue-500 text-gray-400 block'>Privacy Policy</Link>
+                            <Link to={'/privacy-policy'} className='text-base duration-300 hover:text-blue-500 text-gray-400 block'>Privacy Policy</Link>
                             <Link className='text-base duration-300 hover:text-blue-500 text-gray-400 block'>Terms & Conditions</Link>
                             <Link className='text-base duration-300 hover:text-blue-500 text-gray-400 block'>Refund Policy</Link>
                         </div>
